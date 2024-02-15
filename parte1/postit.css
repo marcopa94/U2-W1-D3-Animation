@@ -15,12 +15,12 @@ h1 {
 @keyframes slidein {
   from {
     opacity: 0;
-    transform: perspective(500px) translateZ(0);
+    transform: perspective(500px) translateZ(400px);
   }
 
   to {
     opacity: 1;
-    transform: perspective(500px) translateZ(200);
+    transform: perspective(500px) translateZ(0px);
   }
 }
 
@@ -34,7 +34,7 @@ h1 {
   align-items: center;
 }
 .card {
-  animation: slidein 1s 1s both, fade-in 3s;
+  animation: slidein 1s 1s backwards, fade-in 3s;
 
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
@@ -47,7 +47,7 @@ h1 {
   height: 200px;
 }
 .card1 {
-  animation: slidein 1s 2s both, fade-in 3s;
+  animation: slidein 1s 2s backwards, fade-in 3s;
 
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
@@ -60,7 +60,7 @@ h1 {
   background: linear-gradient(0deg, rgba(131, 131, 131, 1) 0%, rgba(198, 244, 198, 1) 43%);
 }
 .card2 {
-  animation: slidein 1s 3s both, fade-in 3s;
+  animation: slidein 1s 3s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ h1 {
   background: linear-gradient(0deg, rgba(131, 131, 131, 1) 0%, rgba(197, 197, 240, 1) 43%);
 }
 .card3 {
-  animation: slidein 1s 4s both, fade-in 3s;
+  animation: slidein 1s 4s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ h1 {
   background: linear-gradient(0deg, rgba(131, 131, 131, 1) 0%, rgba(198, 244, 198, 1) 43%);
 }
 .card4 {
-  animation: slidein 1s 5s both, fade-in 3s;
+  animation: slidein 1s 5s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
@@ -96,7 +96,7 @@ h1 {
   background: linear-gradient(0deg, rgba(127, 127, 127, 1) 0%, rgba(250, 251, 201, 1) 43%);
 }
 .card5 {
-  animation: slidein 1s 6s both, fade-in 3s;
+  animation: slidein 1s 6s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@ h1 {
   background: linear-gradient(0deg, rgba(131, 131, 131, 1) 0%, rgba(197, 197, 240, 1) 43%);
 }
 .card6 {
-  animation: slidein 1s 7s both, fade-in 3s;
+  animation: slidein 1s 7s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ h1 {
   background: linear-gradient(0deg, rgba(127, 127, 127, 1) 0%, rgba(250, 251, 201, 1) 43%);
 }
 .card7 {
-  animation: slidein 1s 8s both, fade-in 3s;
+  animation: slidein 1s 8s backwards, fade-in 3s;
   box-shadow: 5px 5px 10px 2px #333333;
   display: flex;
   align-items: center;
