@@ -1,0 +1,181 @@
+main {
+  display: flex;
+}
+body {
+  background-color: gray;
+}
+h1 {
+  font: bold;
+  font-size: larger;
+  padding-bottom: 15px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: perspective(500px) translateZ(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: perspective(500px) translateZ(200);
+  }
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+
+  margin-top: 39px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  animation: slidein 5s 1s both, fade-in 3s;
+
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafbc9;
+  transform: rotate(10deg);
+  width: 200px;
+  height: 200px;
+}
+.card1 {
+  animation: slidein 5s 2s both, fade-in 3s;
+
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(+8deg);
+  width: 200px;
+  height: 200px;
+  background-color: #c6f4c6;
+}
+.card2 {
+  animation: slidein 5s 3s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(-10deg);
+  width: 200px;
+  height: 200px;
+  background-color: #c5c5f0;
+}
+.card3 {
+  animation: slidein 5s 4s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(17deg);
+  width: 200px;
+  height: 200px;
+  background-color: #c6f4c6;
+}
+.card4 {
+  animation: slidein 5s 5s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(2deg);
+  width: 200px;
+  height: 200px;
+  background-color: #fafbc9;
+}
+.card5 {
+  animation: slidein 5s 6s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(-6deg);
+  width: 200px;
+  height: 200px;
+  background-color: #c5c5f0;
+}
+.card6 {
+  animation: slidein 5s 7s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(-4deg);
+  width: 200px;
+  height: 200px;
+  background-color: #fafbc9;
+}
+.card7 {
+  animation: slidein 5s 8s both, fade-in 3s;
+  box-shadow: 5px 5px 10px 2px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotate(+8deg);
+  width: 200px;
+  height: 200px;
+  background-color: #c6f4c6;
+}
+/*7777777777777777777777777777777777777777777777777777777777777777animazioni*/
+.card:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+  transition: all 1s 1s;
+}
+.card1:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card2:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card3:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card4:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card5:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card6:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
+.card7:hover {
+  transform: rotate(0deg);
+  scale: 1.2;
+
+  transition: all 1s 1s;
+}
